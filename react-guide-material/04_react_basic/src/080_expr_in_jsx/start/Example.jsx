@@ -1,5 +1,13 @@
 import Child from "./components/Child";
+import Expression from "./components/Expression";
 
-const Example = () => <Child />;
+const Example = () => {
+    return(
+        <div>
+            <Child />
+            <Expression />
+        </div>
+    );
+};
 
 export default Example;
